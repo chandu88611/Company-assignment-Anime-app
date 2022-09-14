@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;0,900;1,100;1,700&display=swap');
+ *{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+.main_content{
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center ;
+  overflow:scroll;
+white-space: nowrap;
+margin-left: 1px;
+}
+._content{
+display: flex;
+width: 100vw;
+overflow:auto;
+white-space: nowrap;
+
+}
+.anime_details{
+  width: 30%;
+  float: left;
+  position: sticky;
+
+}
+.main_content1{
+  display: flex;
+  flex-direction: row-reverse;
+
+}
+input{
+  position: sticky;
+  margin-left: 36vw;
+  width: 40vw;
+  background-image: linear-gradient(to right top, #a1bee9, #89e4e7, #eaf1a3, #71f1be, #a8eb12);
+}
+
+.header1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}

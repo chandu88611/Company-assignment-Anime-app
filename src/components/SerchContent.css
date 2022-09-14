@@ -1,0 +1,19 @@
+.container1{
+    display: flex;
+    flex-direction: row;
+   
+}
+.sAnime_content>h5{
+    margin-left: 4.5vw;
+}
+.sAnime_content>button{
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(134,211,238,1) 82%);
+    width:70%;
+height: 4vh;
+margin-left: 12%;
+}
+.sAnime_content>button:hover{
+    background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(52,253,29,1) 50%, rgba(252,176,69,1) 100%);
+}

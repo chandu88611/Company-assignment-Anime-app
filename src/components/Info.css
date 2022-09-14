@@ -1,0 +1,14 @@
+.container2{
+    
+    width: 25vw;
+    border: #ff0047 2px solid;
+    
+}
+.info_image{
+    width:25vw;
+    height: 45vh;
+}
+.container2>h4{
+    margin-top: 1px;
+    background-image: linear-gradient(to right, #ff0000, #ff0047, #f60082, #be00c1, #091ef6);
+}

@@ -1,0 +1,79 @@
+.main_anime_container{
+    display:grid;
+    /* grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); */
+    grid-template-columns: 300px 300px 300px 300px;
+
+    /* flex-direction: row; */
+}
+
+
+.anime_container{
+    border: 2px solid red;
+width: 23vw;
+margin: 5px;
+box-shadow:#333 0px 1px 5px; 
+/* overflow: scroll; */
+
+
+}
+.anime_image{
+    margin-left: 27px;
+    padding: 4px;
+    background-color: #9ef0ca;
+    height: 43vh;
+    width:18vw;
+    /* box-shadow:rgb(221, 45, 45) 8px 5px 5px;  */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+   animation: image forwards 2s;
+}
+.details{
+    
+   
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgb(102, 196, 250) 100%);
+    height: 10vh;
+}
+h5{
+    margin-top: 10px;
+    color:black;
+    
+}
+.h3{
+    
+    background: rgb(4, 44, 245);
+    background: radial-gradient(circle, rgb(248, 251, 63) 0%, rgb(100, 247, 144) 100%);
+ 
+}
+span{
+    color: white;
+    
+}
+a{
+    text-decoration: none;
+    color:blue;
+}
+a:hover{
+    color: rgb(255, 9, 9);
+}
+.anime_image:hover{
+   box-shadow: rgba(252, 151, 218, 0.979) 0px 0px 24px, rgb(233, 138, 204) 10px 1px 56px, rgb(240, 139, 215) -0px 10px 100px;;
+}
+
+.anime_container>button{
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(134,211,238,1) 82%);
+    width:23vw;
+height: 4vh;
+}
+.anime_container>button:hover{
+    background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(52,253,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+@keyframes image{
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
